@@ -1,0 +1,64 @@
+@media (max-width: 600px) {
+  body {
+    max-width: 98%;
+    margin: 0 auto;
+  }
+  .sect3 h1 {
+    font-size: 7vh;
+  }
+
+  .navbar {
+    max-width: 100%;
+    max-height: 200px;
+    padding: auto;
+    margin: auto;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+    /* margin: 0 -1rem; */
+  }
+  .navbar .logo {
+    height: 130px;
+    /* padding-left: -1.7rem; */
+  }
+  .nav-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: auto;
+    /* padding: 0em 4rem; */
+  }
+  .navbar .links {
+    padding-left: auto;
+    margin-right: 0rem;
+    /* flex-grow: 0; */
+
+    /* margin-right: 0rem; */
+  }
+  /* .landingImg .motto-div img {
+    padding-bottom: 2rem;
+  } */
+  .section3,
+  .section4,
+  .section5,
+  .section6,
+  .section7,
+  .section8,
+  .section9 {
+    text-align: center;
+  }
+
+  .section8,
+  .section9 h1 p {
+    text-align: center;
+  }
+  .section3 img {
+    /* padding-right: 3rem; */
+    padding: 2rem;
+  }
+  .nakwa-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
