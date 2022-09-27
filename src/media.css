@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
   body {
-    max-width: 98%;
+    max-width: 100%;
     margin: 0 auto;
   }
   .sect3 h1 {
@@ -10,27 +10,28 @@
   .navbar {
     max-width: 100%;
     max-height: 200px;
-    padding: auto;
+    /* padding-right: rem; */
     margin: auto;
     /* display: flex; */
     /* flex-direction: row; */
     /* justify-content: space-evenly; */
     /* margin: 0 -1rem; */
   }
-  .navbar .logo {
-    height: 130px;
-    /* padding-left: -1.7rem; */
+  .navbar .links .link {
+    font-size: 15px;
+    padding: 0.5rem;
+    color: rgb(53, 116, 2);
   }
   .nav-content {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: auto;
+    justify-content: space-evenly;
+    /* padding-right: -1rem; */
     /* padding: 0em 4rem; */
   }
   .navbar .links {
-    padding-left: auto;
-    margin-right: 0rem;
+    /* padding-left: auto; */
+    /* margin-right: 0rem; */
     /* flex-grow: 0; */
 
     /* margin-right: 0rem; */
@@ -47,7 +48,9 @@
   .section9 {
     text-align: center;
   }
-
+  .section7 .cardy {
+    background-position: right;
+  }
   .section8,
   .section9 h1 p {
     text-align: center;
@@ -60,5 +63,24 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+  /* AboutPage */
+
+  .row2 .row2-quote {
+    padding: 1rem;
+  }
+  .row4-content {
+    padding: 1rem;
+  }
+  .About-content .row6 .row6-text {
+    text-align: center;
+  }
+  .About-content .row4 .newvid {
+    width: 80%;
+  }
+  .row5-content .first-row .col2-vid {
+    border-radius: 12rem;
+    width: 400px;
+    height: 400px;
   }
 }

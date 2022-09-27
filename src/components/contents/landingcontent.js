@@ -190,10 +190,11 @@ const LandingContent = (props) => {
               persistent belief and faith invested in how human health can be
               transformed through the organic and natural way.
             </p>
-
-            <MDBBtn color="" rounded className="butt">
-              About Us{" "}
-            </MDBBtn>
+            <a href="/about">
+              <MDBBtn color="" rounded className="butt">
+                About Us{" "}
+              </MDBBtn>
+            </a>
           </MDBCol>
           <MDBCol md="6" sm="12" className="text-center nakwa-logo ">
             <img src="images/logo.png"></img>
@@ -224,7 +225,7 @@ const LandingContent = (props) => {
                 <img src="/images/bagde.png" width="100"></img>
               </div>
 
-              <p className="text-left">
+              <p className="text-center">
                 <hr />
                 <MDBIcon className="quotes" icon="quote-left" />
                 {""}
@@ -487,7 +488,7 @@ const LandingContent = (props) => {
                   Port-Harcourt, Nigeria
                 </h6>
                 <p className="font-weight-normal dark-grey-text">
-                  <MDBIcon className="fa fa-quote-left pr-2" />
+                  <MDBIcon className="fa fa-quote-left pr-2 icon" />
                   At vero eos et accusamus et iusto odio dignissimos ducimus qui
                   blanditiis praesentium voluptatum deleniti atque corrupti.
                 </p>
