@@ -1,4 +1,9 @@
 import React from "react";
+import Roll from "react-reveal/Roll";
+import Fade from "react-reveal/Fade";
+import Reveal from "react-reveal/Reveal";
+import Rotate from "react-reveal/Rotate";
+import Flip from "react-reveal/Flip";
 import {
   MDBCol,
   MDBContainer,
@@ -28,22 +33,15 @@ const LandingContent = (props) => {
     <div className="app-content container-fluid">
       <div className="landingImg ">
         <MDBRow>
-          {/* <MDBCol md='3'> <img src='/images/nonni.png' width='' height='' className='img-fluid nonni' ></img></MDBCol> */}
           <MDBCol md="6" text-color="white" className="static-img">
             <div className="text-center motto-div">
               <h1 className="motto">JOIN</h1>
               <h1 className="mottos">The Noni Family</h1>
               <h6>Enjoy Pleasure With Good Health</h6>
               <img src="/images/bagde.png" width="250"></img>
-              {/* <a href="#!" className="green-text font-weight-light seewhy"> */}
-
-              {/* <MDBIcon fas icon="arrow-down" className="pr-2 ml-2 " /> */}
-              {/* SEE WHY? */}
-              {/* </a> */}
             </div>
           </MDBCol>
           <MDBCol md="6" text-color="white" className="motion-img">
-            {/* <MDBContainer fluid> */}
             <MDBCarousel
               activeItem={1}
               length={4}
